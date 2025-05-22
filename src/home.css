@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.usagi-house-title {
+  margin-top: 20px; /* add margin top */
+  padding-top: 0px;
+ border-bottom: 2px solid #ccc;
+}
+
+.welcome-message {
+  margin-top: 20px; /* add margin top */
+}
+
+.container {
+  position: relative;
+}
+
+.header-container {
+  text-align: center;
+  margin-top: 20px; /* add margin top */
+  padding-top: 0px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.full-width-image {
+  width: 40%;
+  height: auto;
+  margin: 20px auto; /* add margin top and bottom */
+  display: flex;
+}
+
+.performance-image {
+  display: block;
+  margin: 20px auto; /* add margin top and bottom */
+}
+
+.performance-title {
+text-decoration: underline;
+font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.description-text {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px; /* add margin top */
+  font-style: italic;
+}
+
+.hours-container {
+  text-align: center;
+  margin-top: 40px; /* add margin top */
+}
+
+.hours-text {
+  font-size: 30px;
+}
+
+.hours-text + ul {
+  font-size: 24px;
+}
+
+.hours-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hours-container ul li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.hours-container-header {
+ text-decoration: underline;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.reservation-button {
+  padding: 10px 60px;
+  font-size: 18px;
+  display: block;
+  margin: 20px auto; /* add margin top and bottom */
+}
+
+.logo {
+  position: relative;
+  margin-top: -100px;
+  left: 10px;
+  width: 50px; /* adjust the width to make the logo smaller */
+  z-index: 1; /* add a z-index to bring the logo to the front */
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+/* add a nav container to hold the buttons */
+.nav-container {
+  position: relative;
+  top: 10px;
+  left: 120px; /* adjust the left margin to make room for the logo */
+}
+
+/* add a class to the buttons */
+.nav-button {
+  margin-right: 20px;
+}
+
+/* Style the welcome text */
+.container h1:nth-child(2) {
+  text-align: center;
+  margin-top: 100px; /* adjust the margin to your liking */
+}
+
+/* Style the maid-group image to stretch to the whole width of the site */
+.container img[src*="maid-group.png"] {
+  width: 90%; /* leave some space to the edge */
+  margin: 20px auto; /* add margin top and bottom */
+}
+
+/* Move the performances.png and Live Performance text under the maid-group.png */
+.container img[src*="maid-group.png"] + * {
+  margin-top: 20px;
+}
+
+/* Style the special event pictures */
+.special-event-pictures {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.special-event-pictures img {
+  width: 40%; /* adjust the width to your liking */
+  margin: 20px; /* add margin top and bottom */
+}
+
+.special-event-description {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.special-event-header {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.picture-container img {
+  width: 500px;
+  height: auto;
+  margin: 20px auto; /* add margin top and bottom */
+}
+
+.picture-name {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.reservation-button {
+  background-color: lightgray; /* lightgray background */
+  color: black; /* black text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
+}
+
+.reservation-button:hover {
+  background-color: pink; /* pink background on hover */
+}
+
+/* Style the map */
+.map {
+  width: 90%; /* leave some space to the edge */
+  margin: 20px auto; /* add margin top and bottom */
+}
+
+.map iframe {
+  width: 100%; /* make the iframe full width */
+  height: 450px; /* adjust the height to your liking */
+}
+
+.location {
+  text-align: center;
+  width: 100%;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.location-header {
+  text-decoration: underline;
+  font-size: 30px;
+}

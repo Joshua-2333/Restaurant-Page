@@ -1,0 +1,72 @@
+.logo {
+  position: relative;
+  margin-top: -100px;
+  left: 10px;
+  width: 50px; /* adjust the width to make the logo smaller */
+  z-index: 1; /* add a z-index to bring the logo to the front */
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.maid-name {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.maids-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* adjust the height to your liking */
+  border-bottom: 2px solid #ccc;
+}
+
+.maids-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.maid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maid-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.maid1-image {
+  object-position: 0 -20px;
+  
+}
+
+.maid2-image {
+  object-position: 0 -20px;
+}
+
+.maid3-image {
+  object-position: 0 -40px;
+}
+
+.maid4-image {
+  object-position: 0 -25px;
+}
+
+.maid5-image {
+  object-position: 0 -35px;
+}
+
+.maid6-image {
+  object-position: 0 -30px;
+}

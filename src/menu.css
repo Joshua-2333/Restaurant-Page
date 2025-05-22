@@ -1,0 +1,116 @@
+.logo {
+  position: relative;
+  margin-top: -100px;
+  left: 10px;
+  width: 50px; /* adjust the width to make the logo smaller */
+  z-index: 1; /* add a z-index to bring the logo to the front */
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Menu Styles */
+
+.menu-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.menu-category {
+  text-decoration: underline;
+}
+
+.menu-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-description {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  }
+
+  .menu-header {
+   border-bottom: 2px solid #ccc;
+   font-size: 30px;
+  }
+
+
+.p .menu-item-description {
+  text-align: left;
+}
+
+/* Section Styles */
+
+section {
+  background-color: rgba(255, 255, 255, 0.5); /* Changed to semi-transparent white */
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(221, 221, 221, 0.5); /* Changed to semi-transparent border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+section li p {
+  font-size: 14px;
+  color: #666;
+  margin-left: 0;
+  margin-bottom: 10px;
+  clear: both;
+  display: block;
+}
+
+/* Checki Styles */
+
+#cheki p {
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.checki-description {
+  /* add your styles here */
+  font-size: 14px;
+  color: gray;
+  margin-top: 5px;
+  } 

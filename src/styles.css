@@ -1,0 +1,43 @@
+/* styles.css */
+@import './home.css';
+@import './about.css';
+@import './menu.css';
+@import './maids.css';
+
+body {
+  background-image: url('/image/background.png');
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1em;
+}
+
+nav button {
+  margin-left: 1em;
+}nav {
+  padding: 1em;
+  text-align: right;
+}
+
+nav button {
+  margin-left: 1em;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: deeppink;
+}
+
+button.active {
+  color: deeppink;
+}
