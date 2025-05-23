@@ -1,15 +1,11 @@
 import logoImage from "/image/Logo.png";
 import aniImage from "/image/ani-maid.png";
 
-export function createAboutPage(contentDiv) {
+function createAboutPage(contentDiv) {
   const logo = document.createElement('img');
   logo.src = logoImage;
   logo.alt = 'Logo';
   logo.className = 'logo';
-  logo.onclick = function() {
-    window.location.href = '/'; // assuming your homepage is at the root URL
-  };
-  contentDiv.appendChild(logo);
 
   const aboutPage = document.createElement('div');
   aboutPage.innerHTML = `
@@ -46,3 +42,5 @@ Hop on in, Master & Princess! Your bunny maids are waiting~ 💕</br>
     `;
   contentDiv.appendChild(aboutPage);
 }
+
+export { createAboutPage };

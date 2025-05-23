@@ -1,17 +1,4 @@
-.logo {
-  position: relative;
-  margin-top: -100px;
-  left: 10px;
-  width: 50px; /* adjust the width to make the logo smaller */
-  z-index: 1; /* add a z-index to bring the logo to the front */
-  transition: all 0.2s ease-in-out;
-}
 
-.logo:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-  border: 2px solid #fff;
-}
 
 .about-us {
   font-size: 30px;

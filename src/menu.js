@@ -1,18 +1,10 @@
 import logoImage from "/image/Logo.png";
 
 export function createMenuPage(contentDiv) {
-  const logo = document.createElement('img');
-  logo.src = logoImage;
-  logo.alt = 'Logo';
-  logo.className = 'logo';
-  logo.onclick = function() {
-    window.location.href = '/'; // assuming your homepage is at the root URL
-  };
-  contentDiv.appendChild(logo);
-
- const menuPage = document.createElement('div');
+  const menuPage = document.createElement('div');
   menuPage.className = 'menu-page';
   menuPage.innerHTML = `
+  
   <h2 class="menu-header">Our Menu</h2>
    <section id="entrees">
      <h2 class="menu-category">Entrees</h2>

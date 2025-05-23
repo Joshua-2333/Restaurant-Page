@@ -7,17 +7,9 @@ import maid6Image from "/image/maid-6.png";
 import logoImage from "/image/Logo.png";
 
 export function createMaidsPage(contentDiv) {
-  const logo = document.createElement('img');
-  logo.src = logoImage;
-  logo.alt = 'Logo';
-  logo.className = 'logo';
-  logo.onclick = function() {
-    window.location.href = '/'; // assuming your homepage is at the root URL
-  };
-  contentDiv.appendChild(logo);
-
   const maidsPage = document.createElement('div');
 maidsPage.innerHTML = `
+  
   <h1 class="maids-title">Our Maids</h1>
   <div class="maids-container">
       <div class="maid">

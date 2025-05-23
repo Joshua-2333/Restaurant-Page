@@ -15,7 +15,7 @@ export function createHomePage(contentDiv) {
 logo.onclick = function() {
    window.location.href = '/'; // assuming your homepage is at the root URL
  };
- contentDiv.appendChild(logo);
+ 
 
 const headerContainer = document.createElement('div');
 headerContainer.className = 'header-container';
