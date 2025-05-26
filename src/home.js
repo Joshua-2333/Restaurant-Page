@@ -13,13 +13,13 @@ export function createHomePage(contentDiv) {
  logo.alt = 'Logo';
  logo.className = 'logo';
 logo.onclick = function() {
-   window.location.href = '/'; // assuming your homepage is at the root URL
+   window.location.href = '/'; 
  };
  
 
 const headerContainer = document.createElement('div');
 headerContainer.className = 'header-container';
-headerContainer.style.marginBottom = '20px'; // add margin bottom
+headerContainer.style.marginBottom = '20px'; 
 homePage.appendChild(headerContainer);
 
 const cafeName = document.createElement('h1');
@@ -29,39 +29,39 @@ headerContainer.appendChild(cafeName);
 
 const heading = document.createElement('h1');
 heading.textContent = '🎀Welcome to Your Happy Place, Master & Princess!🎀';
-heading.style.marginTop = '20px'; // add margin top
+heading.style.marginTop = '20px'; 
 headerContainer.appendChild(heading);
 
 const maidGroup = document.createElement('img');
 maidGroup.src = maidGroupImage;
 maidGroup.alt = 'Group of Japanese maids for a cafe';
 maidGroup.className = 'full-width-image';
-maidGroup.style.marginTop = '20px'; // add margin top
+maidGroup.style.marginTop = '20px'; 
 homePage.appendChild(maidGroup);
 
 const description = document.createElement('p');
 description.className = 'description-text';
 description.innerHTML = '"Our adorable maids are ready to pamper you with tasty treats, fun games, and the cutest service in town!<br>Every visit is a special moment—so sit back, enjoy a fluffy pancake, and let us bring a little sparkle to your day!"';
-description.style.marginTop = '20px'; // add margin top
-description.style.textAlign = 'center'; // add text align
-description.style.fontSize = '24px'; // add font size
+description.style.marginTop = '20px'; 
+description.style.textAlign = 'center'; 
+description.style.fontSize = '24px'; 
 homePage.appendChild(description);
 
 const performanceText = document.createElement('h2');
 performanceText.innerHTML = '<span class="performance-title">Live Performance Every Hour!</span>';
-performanceText.style.marginTop = '40px'; // add margin top
+performanceText.style.marginTop = '40px'; 
 homePage.appendChild(performanceText);
 
 const performanceImg1 = document.createElement('img');
 performanceImg1.src = performanceImage;
 performanceImg1.alt = 'Performance Image';
 performanceImg1.className = 'performance-image';
-performanceImg1.style.marginTop = '20px'; // add margin top
+performanceImg1.style.marginTop = '20px'; 
 homePage.appendChild(performanceImg1);
 
 const hoursContainer = document.createElement('div');
 hoursContainer.className = 'hours-container';
-hoursContainer.style.marginTop = '40px'; // add margin top
+hoursContainer.style.marginTop = '40px'; 
 homePage.appendChild(hoursContainer);
 
 const hours = document.createElement('p');

@@ -1,12 +1,15 @@
+/* Import CSS files for individual pages to apply styles specific to each page*/
 @import './home.css';
 @import './about.css';
 @import './menu.css';
 @import './maids.css';
 
+/* Define styles for the body element (i.e. the entire HTML document)*/
 body {
   background-image: url('/image/background.png');
 }
 
+/* Define styles for the nav element (i.e. the navigation bar)*/
 nav {
   display: flex;
   justify-content: flex-end;
@@ -15,10 +18,12 @@ nav {
   text-align: right;
 }
 
+/* Define styles for button elements within the nav element*/
 nav button {
-  margin-left: 1em;
+   margin-left: 1em;
 }
 
+/*Define styles for all button elements on the page*/
 button {
   background-color: transparent;
   border: none;
@@ -27,11 +32,14 @@ button {
   cursor: pointer;
 }
 
+/* Define styles for button elements when they are hovered over*/
 button:hover {
   color: deeppink;
 }
 
+/* Define styles for the logo element (i.e. the #logo element)*/
 #logo {
+  
   position: absolute;
   top: 10px;
   left: 10px;
@@ -41,18 +49,21 @@ button:hover {
   transition: transform 0.2s ease-in-out;
 }
 
+/* Define styles for the img element within the logo element*/
 #logo img {
   width: 100%;
   height: 100%;
   transition: opacity 0.5s ease-in-out;
 }
 
+/* Define styles for the logo element when it is hovered over*/
 #logo:hover {
   background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm84czVrMmEwa292bW5vZWVzNHNqejl2ajgxa3N2YW5qaGV4MDY0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hVle3v01CScLyGRe0i/giphy.gif');
   background-size: cover;
   background-position: center;
 }
 
+/*Define styles for the img element within the logo element when it is hovered over*/
 #logo:hover img {
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
